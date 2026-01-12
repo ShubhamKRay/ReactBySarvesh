@@ -1,3 +1,7 @@
+// export default function greet() {
+//   console.log("Welcome");
+// }
+
 function greet() {
   console.log("Welcome");
 }
