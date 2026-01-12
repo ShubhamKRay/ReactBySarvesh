@@ -1,6 +1,7 @@
 // export default function greet() {
 //   console.log("Welcome");
 // }
+//  this is old syntax
 
 function greet() {
   console.log("Welcome");
