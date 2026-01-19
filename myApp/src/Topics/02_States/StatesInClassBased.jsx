@@ -7,6 +7,11 @@ class StatesInClassBased extends Component{
         this.state = { text: "Hello Class Based Component"};
     }
 
+
+    btnHandle = () => {
+        this.setState({ text: "Hiiiii"});
+    };
+
     render(){
 
         console.log(this);
@@ -15,6 +20,7 @@ class StatesInClassBased extends Component{
             <div>
                 <h1>Learn States in Class Based Component</h1>
                 <h2>{this.state.text}</h2>
+                <button onClick={this.btnHandle}>Update</button>
             </div>
         );
     }
