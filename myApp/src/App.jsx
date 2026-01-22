@@ -5,6 +5,9 @@ import PropsParent from "./Topics/03_props/PropsParent";
 import DrillingParent from "./Topics/04_PropsDrilling/DrillingParent";
 import Context from "./Topics/05_context/Context";
 import Parent1 from "./Topics/05_context/Parent1";
+import MyContext from "./Topics/05.1_context-rivision/MyContext";
+import ParentComp from "./Topics/05.1_context-rivision/ParentComp";
+import UserLists from "./Topics/06_Lists/UserLists";
 
 function App() {
   return (
@@ -15,9 +18,17 @@ function App() {
       {/* <PropsParent/> */}
       {/* <DrillingParent /> */}
 
-    <Context>
+    {/* <Context>
       <Parent1/>
-    </Context>
+    </Context> */}
+
+
+
+    {/* <MyContext>
+      <ParentComp/>
+    </MyContext> */}
+
+    <UserLists/>
     
     </div>
   );
