@@ -8,6 +8,7 @@ import Parent1 from "./Topics/05_context/Parent1";
 import MyContext from "./Topics/05.1_context-rivision/MyContext";
 import ParentComp from "./Topics/05.1_context-rivision/ParentComp";
 import UserLists from "./Topics/06_Lists/UserLists";
+import User from "./Topics/06_Lists/User";
 
 function App() {
   return (
