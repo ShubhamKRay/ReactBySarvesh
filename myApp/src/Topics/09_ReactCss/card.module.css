@@ -1,0 +1,12 @@
+.card {
+    height: 300px;
+    width: 250px;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+.card>h2 {
+    text-align: center;
+    color: darkblue;
+    padding: 50px;
+}

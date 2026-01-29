@@ -12,6 +12,10 @@ import User from "./Topics/06_Lists/User";
 import LifeCycleInCBC from "./Topics/07_LifeCycle/LifeCycleInCBC";
 import { useState }from "react";  
 import LifeCycleInFBC from "./Topics/07_LifeCycle/LifeCycleInFBC";  
+import Navbar from "./Topics/09_ReactCss/Navbar";
+import Header from "./Topics/09_ReactCss/Header";
+import Card from "./Topics/09_ReactCss/Card";
+import Footer from "./Topics/09_ReactCss/Footer";
 
 function App() {
   const[toggle,setToggle]=useState(false);
@@ -40,8 +44,14 @@ function App() {
     {/* <LifeCycleInCBC/> */}
 
 
-      <button onClick={handleToggle}>Toggle me</button>
+      {/* <button onClick={handleToggle}>Toggle me</button> */}
       {/* {toggle && <LifeCycleInCBC/>} */}
+
+
+      <Navbar/>
+      <Header/>
+      <Card/>
+      <Footer/>
 
    {toggle && <LifeCycleInFBC/>}
     </div>
