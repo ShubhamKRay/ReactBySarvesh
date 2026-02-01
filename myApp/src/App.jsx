@@ -16,6 +16,10 @@ import Navbar from "./Topics/09_ReactCss/Navbar";
 import Header from "./Topics/09_ReactCss/Header";
 import Card from "./Topics/09_ReactCss/Card";
 import Footer from "./Topics/09_ReactCss/Footer";
+import Controlled1 from "./Topics/10_Forms/Controlled1";
+import Controlled2 from "./Topics/10_Forms/Controlled2";
+// import Fetch2 from "./Topics/08_FetchApi/Fetch2";
+// import Fetch1 from "./Topics/08_FetchApi/Fetch1";
 
 function App() {
   const[toggle,setToggle]=useState(false);
@@ -24,36 +28,42 @@ function App() {
 
   return (
     <div>
-      {/* <StatesInFunctionBased /> */}
+   {/* <StatesInFunctionBased /> */}
       {/* <StatesInClassBased /> */}
       {/* <DropDown/> */}
       {/* <PropsParent/> */}
       {/* <DrillingParent /> */}
+      {/* <Context>
+        <Parent1 />
+      </Context> */}
 
-    {/* <Context>
-      <Parent1/>
-    </Context> */}
+      {/* <MyContext>
+        <ParentComp />
+      </MyContext> */}
 
+      {/* <UserLists/> */}
 
+      {/* <button onClick={handleToggle}>toggle me</button> */}
 
-    {/* <MyContext>
-      <ParentComp/>
-    </MyContext> */}
+      {/* {toggle && <LifeCycleInCBC />} */}
 
-    {/* <UserLists/> */}
-    {/* <LifeCycleInCBC/> */}
+      {/* {toggle && <LifeCycleInFBC />} */}
 
+      {/* <Fetch1/>
 
-      {/* <button onClick={handleToggle}>Toggle me</button> */}
-      {/* {toggle && <LifeCycleInCBC/>} */}
+      <Fetch2/> */}
 
+      {/* <Navbar /> */}
 
-      <Navbar/>
-      <Header/>
-      <Card/>
-      <Footer/>
+      {/* <Header/> */}
 
-   {toggle && <LifeCycleInFBC/>}
+      {/* <Card/> */}
+
+      {/* <Footer/> */}
+
+      <Controlled1 />
+
+      <Controlled2/>
     </div>
   );
 }
