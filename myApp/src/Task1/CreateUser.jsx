@@ -2,9 +2,9 @@ import React from 'react'
 
 const CreateUser = () => {
   return (
-    <div>
-      
-    </div>
+     <section className="p-2">
+      <h1>Create Employee</h1>
+    </section>
   )
 }
 

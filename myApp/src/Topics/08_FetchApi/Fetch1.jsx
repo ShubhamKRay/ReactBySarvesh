@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Loader from "../../Components/Loader";
 
+
 const Fetch1 = () => {
   const [loading, setLoading] = useState(false);
   const [todos, setTodos] = useState([]);
@@ -23,7 +24,8 @@ const Fetch1 = () => {
     getData();
   }, []);
 
-  if (loading) return <Loader />;
+  if (loading) 
+    return <Loader/>;
 
   return (
     <div>

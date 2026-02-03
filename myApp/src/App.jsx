@@ -12,6 +12,8 @@ import User from "./Topics/06_Lists/User";
 import LifeCycleInCBC from "./Topics/07_LifeCycle/LifeCycleInCBC";
 import { useState }from "react";  
 import LifeCycleInFBC from "./Topics/07_LifeCycle/LifeCycleInFBC";  
+import Fetch1 from "./Topics/08_FetchApi/Fetch1";
+import Fetch2 from "./Topics/08_FetchApi/Fetch2";
 import Navbar from "./Topics/09_ReactCss/Navbar";
 import Header from "./Topics/09_ReactCss/Header";
 import Card from "./Topics/09_ReactCss/Card";
@@ -21,8 +23,7 @@ import Controlled2 from "./Topics/10_Forms/Controlled2";
 import Uncontrolled from "./Topics/10_Forms/Uncontrolled";
 import Reducer from "./Topics/11_Reducer/Reducer";
 import Dashboard from "./Task1/Dashboard";
-// import Fetch2 from "./Topics/08_FetchApi/Fetch2";
-// import Fetch1 from "./Topics/08_FetchApi/Fetch1";
+
 
 function App() {
   const[toggle,setToggle]=useState(false);
@@ -52,9 +53,12 @@ function App() {
 
       {/* {toggle && <LifeCycleInFBC />} */}
 
-      {/* <Fetch1/>
 
+
+      {/* <Fetch1/>
       <Fetch2/> */}
+
+
 
       {/* <Navbar /> */}
 

@@ -28,7 +28,7 @@ const Fetch2 = () => {
       <h1>All Products</h1>
 
       {loading ? (
-        <Loader />
+        <Loader/>
       ) : (
         allProducts.map((ele) => {
           return (
